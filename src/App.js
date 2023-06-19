@@ -1,5 +1,4 @@
-
-import  Counter  from './features/counter/Counter';
+import Counter from './features/counter/Counter';
 import ProductList from './features/product-list/ProductList';
 import './App.css';
 import Home from './pages/Home';
@@ -11,19 +10,19 @@ import {
   RouterProvider,
   Route,
   Link,
-} from "react-router-dom";
+} from 'react-router-dom';
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: (<Home></Home>),
+    path: '/',
+    element: <Home></Home>,
   },
   {
-    path: "/login",
+    path: '/login',
     element: <LoginPage></LoginPage>,
   },
   {
-    path: "/signup",
+    path: '/signup',
     element: <SignupPage></SignupPage>,
   },
 ]);
