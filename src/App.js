@@ -4,6 +4,7 @@ import './App.css';
 import Home from './pages/Home';
 import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
+import CartPage from './pages/CartPage';
 
 import {
   createBrowserRouter,
@@ -24,6 +25,11 @@ const router = createBrowserRouter([
   {
     path: '/signup',
     element: <SignupPage></SignupPage>,
+  },
+  { 
+    // Only for testing - then page will be added 
+    path: '/cart',
+    element: <CartPage></CartPage>,
   },
 ]);
 
