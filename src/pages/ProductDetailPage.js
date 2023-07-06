@@ -1,15 +1,15 @@
 import Navbar from "../features/navbar/Navbar"
 // import ProductList from "../features/product-list/ProductList"
-import ProductList from "../features/product-list/components/ProductList"
+import ProductDetail from "../features/product-list/components/ProductDetail"
 
-function Home() {
+function ProductDetailPage() {
   return (
     <div>
         <Navbar>
-            <ProductList> </ProductList>
+            <ProductDetail> </ProductDetail>
         </Navbar>
     </div>
   )
 }
 
-export default Home
+export default ProductDetailPage
