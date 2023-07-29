@@ -1,15 +1,13 @@
-import Navbar from "../features/navbar/Navbar"
-// import ProductList from "../features/product-list/ProductList"
-import ProductDetail from "../features/product-list/components/ProductDetail"
-
+import NavBar from "../features/navbar/Navbar";
+import ProductDetail from "../features/product/components/ProductDetail";
 function ProductDetailPage() {
-  return (
-    <div>
-        <Navbar>
-            <ProductDetail> </ProductDetail>
-        </Navbar>
-    </div>
-  )
+    return ( 
+        <div>
+            <NavBar>
+                <ProductDetail></ProductDetail>
+            </NavBar>
+        </div>
+     );
 }
 
-export default ProductDetailPage
+export default ProductDetailPage;
